@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <title>Pokémon</title>
+    
+</head>
+
+<body>
+    
+    <header>
+    <div class="esquerda">
+    
+        <h1>POKÉMON</h1>
+    
+    </div>
+    <div class="direita">
+        <a href="/"> <!--(/)Volta pra home. (#)Volta pra mesma página.-->
+                    <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+                </a>
+
+                <!--GitHub e Linkedin-->
+        <a href="https://github.com/FabioWie" target="_blank">
+            <img class="icone" src="./src/imagens/github.svg" alt="icone GitHub">
+        </a>
+
+        <a href="https://linkedin.com/in/fabiowie/" target="_blank">
+            <img class="icone" src="./src/imagens/linkedin-in.svg" alt="icone Linkedin">
+        </a>
+
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button>
+    </div>
+    </header>
+
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    フシギダネ <br>
+                    <i>Fushigidane</i><br>
+                    Dual classe Grama/ Veneno, introduzido na Geração I. Há uma semente de planta em suas costas desde o dia em que esse Pokemon nasce. Evolui para Ivysaur no nível 16. É um dos três Pokémons iniciais, junto a Charmander e Squirtle.
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao descrito">
+                    フシギソウ <br>
+                    <i>Fushigisou</i><br>
+                    Evolui a partir do Bulbasaur no nível 16. Dual classe Grama/ Veneno, introduzido na Geração I. Evolui para Venusaur a partir do nível 36.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">
+                    フシギバナ <br>
+                    <i>Fushigibana</i><br>
+                    Evolui a partir do Ivisaur no nível 36. Sendo a forma final do Bulbasaur. Possui duas formas:<br>
+                    - Pode Mega Evolver para Mega Venusaur.
+                    - Pode Gigantamax para Gigantamax Venusaur.
+                
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/charmander.gif" alt="Bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>                   
+                </ul>
+
+                <p class="descricao">
+                    ヒトカゲ<br>
+                    <i>Hitokage</i><br>
+                    Pokémon do tipo Fogo, introduzido na Geração I. Evolui para Charmeleon, iniciando no nível 16; que, por sua vez, evolui para Charizard a partir do nível 36.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    リザード<br>
+                    <i>Lizardo</i><br>
+                    Pokémon do tipo Fogo, introduzido na Geração I.
+                    Evolui a partir do Charmander no nível 16. Evoluindo para Charizard no nível 36.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">
+                    リザードン<br>
+                    <i>Lizardon</i><br>
+                    Pokémon do tipo dual: Fogo/ Voador, introduzido na Geração I. Evolui a partir do Charmeleon no nível 36. Possui três formas: Mega Charizard X, Mega Charizard Y e Gigantamax Charizard.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    ゼニガメ<br>
+                    <i>Zenigame</i><br>
+                    Pokémon do tipo Água. Introduzido na Geração I. Evolui para Wartortle, iniciando no nível 16. O qual evolui para Blastoise, a partir do nível 36.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    カメール<br>
+                    <i>Kameil</i><br>
+                    Pokémon do tipo Água. Evolução do Squirtle a partir do nível 16. Evolui para Blastoise, iniciando no nível 36. Possui duas formas: Mega Blastoise e Gigantamax Blastoise.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">
+                    カメックス<br>
+                    <i>Kamex</i><br>
+                    Evolução do Wartortle, a partir do nível 36.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    キャタピー<br>
+                    <i>Caterpie</i><br>
+                    Pokémon do tipo Inseto, introduzido na Geração I. Evolui para Metapod, a partir do nível 7. O qual evolui para Butterfree, começando no nível 10.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Metapod</span>
+                    <span>#011</span>
+                </div>
+
+                <img src="./src/imagens/metapod.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    トランセル<br>
+                    <i>Transel</i><br>
+                    Pokémon do tipo Inseto, introduzido na Geração I. Evolui a partir do Caterpie no nível 7. O qual evolui para Butterfree, começando no nível 10.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Butterfree</span>
+                    <span>#012</span>
+                </div>
+
+                <img src="./src/imagens/buterfree.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">
+                    バタフリー<br>
+                    <i>Butterfree</i><br>
+                    Pokémon dual tipo: Inseto/ Voador, introduzido na Geração I. Evolui a partir do Metapod no nível 10. Sendo a forma final de Caterpie. Pode Gigantamax para Gigantamax Butterfree.
+                </p>
+            </li>
+        </ul>
+
+        
+        
+    </main>
+
+        <div>
+            <p class="direitos">
+            Agradecimentos: Dev em Dobro<br>
+            &copy; Fabio Wie (Direitos Reservados)</p>
+        </div>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
